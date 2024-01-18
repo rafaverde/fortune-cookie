@@ -28,7 +28,6 @@ document.addEventListener("keydown", handleResetKey)
 function handleFortuneClick() {
   let showPhrase = fortunePhrases[randomNumber]
   resultScreen.querySelector("p").innerText = showPhrase
-  console.log(showPhrase, randomNumber)
   toggleScreen()
 }
 
